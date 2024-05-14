@@ -9,11 +9,11 @@ This implementation is designed to efficiently load and display images in an asy
 
 ## Taks list
 
-- ** All Images are shown as 3 columns square grid with centre cropped
-- ** Image loaded asynchronously, user can scroll 100, 200 or 300 images while scrolling (Choose 100 or 200 or 300 in the list at the top, UI will be refreshed with new data)
-- ** The caching mechanism has been implemented, and will be stored in cache and disk, if not in cache will be moved to cache from disk otherwise will be downloaded and stored in both.
-- ** If image loading fails or takes time to load place holder image will be shown.
-- ** CPU usage and memory have been reduced by resizing images.
+- All Images are shown as 3 columns square grid with centre cropped
+- Image loaded asynchronously, user can scroll 100, 200 or 300 images while scrolling (Choose 100 or 200 or 300 in the list at the top, UI will be refreshed with new data)
+- The caching mechanism has been implemented, and will be stored in cache and disk, if not in cache will be moved to cache from disk otherwise will be downloaded and stored in both.
+- If image loading fails or takes time to load place holder image will be shown.
+- CPU usage and memory have been reduced by resizing images.
 
 ## Getting Started
 
