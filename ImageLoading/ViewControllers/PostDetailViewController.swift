@@ -62,7 +62,7 @@ class PostDetailViewController: UIViewController {
     // MARK: - Actions
     /// Dismisses the view controller.
     @IBAction func closeDetailView(_ sender: Any) {
-        self.dismiss(animated: false)
+        self.dismiss(animated: true)
     }
 }
 
