@@ -1,0 +1,14 @@
+//
+//  APIConfiguration.swift
+//  SocialFeed
+//
+//  Created by V!jay on 13/05/24.
+//
+
+import Foundation
+
+protocol APIConfiguration {
+    var method : String { get }
+    var path : String { get }
+    var parameters: [String: Any]? { get }
+}
