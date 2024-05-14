@@ -7,7 +7,7 @@ This implementation is designed to efficiently load and display images in an asy
 - **Home Feed:** It lists the JSON from the API, The Image has been cached also you can choose the segment where i am sending the limit based on segment selection(Default limit is 100).
 - **Detail View:** View detailed information about coverage, just coverage title and published details along with opening web view to read.
 
-## Taks list
+## Task list
 
 - All Images are shown as 3 columns square grid with centre cropped
 - Image loaded asynchronously, user can scroll 100, 200 or 300 images while scrolling (Choose 100 or 200 or 300 in the list at the top, UI will be refreshed with new data)
